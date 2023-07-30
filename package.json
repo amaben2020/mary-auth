@@ -1,0 +1,16 @@
+{
+  "name": "mary-auth",
+  "version": "1.0.0",
+  "description": "https://www.npmjs.com/package/json-server-auth",
+  "main": "register.js",
+  "type": "module",
+  "scripts": {
+    "start": "json-server db.json -m ./node_modules/json-server-auth"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "json-server-auth": "^2.1.0"
+  }
+}
